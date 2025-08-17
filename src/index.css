@@ -1,0 +1,28 @@
+/* src/index.css – light, clean base */
+:root {
+  --bg: #574304;
+  --card: #6c2b08;
+  --text: #111111;
+  --muted: #6b7280;
+  --brand: #2d3748;
+  --brand-2: #4a5568;
+  --ring: #a0aec0;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+a { color: var(--brand-2); text-decoration: none; }
+a:hover { text-decoration: underline; }
